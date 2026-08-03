@@ -1,0 +1,19 @@
+{
+  "name": "@remote-print/android-agent",
+  "version": "1.0.0",
+  "description": "Production-Grade Android Remote Print Management Agent (Bluetooth, USB OTG, Network Wi-Fi, Foreground Service, WSS Reconnect)",
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/ws": "^8.5.10",
+    "typescript": "^5.3.3"
+  }
+}
