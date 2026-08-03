@@ -1,2 +1,2 @@
-#!/usr/bin/env sh
-echo "Gradle Wrapper execution for Remote Print Agent"
+#!/bin/sh
+exec gradle "$@"
